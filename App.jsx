@@ -4,6 +4,9 @@ const NAV = ["Home", "Services", "Pricing", "About", "Contact"];
 
 const SERVICES = [
   {
+    <p className="text-center text-sm text-gray-500 mt-4">
+      Built my Amresh age 14 and Claude it is a project
+    </p>
     icon: "⚡",
     title: "Lead Qualification Bot",
     desc: "The moment a lead fills your form, our AI sends a personalized SMS + email within 90 seconds, asks smart qualifying questions, and scores them automatically — so your agents only talk to serious buyers.",
