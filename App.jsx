@@ -4,9 +4,7 @@ const NAV = ["Home", "Services", "Pricing", "About", "Contact"];
 
 const SERVICES = [
   {
-    <p className="text-center text-sm text-gray-500 mt-4">
-      Built my Amresh age 14 and Claude it is a project
-    </p>
+   
     icon: "⚡",
     title: "Lead Qualification Bot",
     desc: "The moment a lead fills your form, our AI sends a personalized SMS + email within 90 seconds, asks smart qualifying questions, and scores them automatically — so your agents only talk to serious buyers.",
@@ -550,7 +548,7 @@ const styles = `
     cursor: pointer; font-family: var(--sans);
     transition: all 0.2s; margin-top: 4px;
   }
-  .form-submit:hover { background: #1D4ED8; transform: translateY(-1px); box-shadow: 0 8px 24px rgba(37,99,235,0.25); }
+  .form-submit:hover { background: #1D4ED8; transform: translateY(-1px); box-shadow: 0 8px 24px rgba(37,99,235,0.25); 
 
   .footer {
     background: var(--dark); color: #64748B;
@@ -872,9 +870,9 @@ export default function App() {
                 <label>Which plan interests you?</label>
                 <select value={form.tier} onChange={e => setForm({ ...form, tier: e.target.value })}>
                   <option value="">Select a plan...</option>
-                  <option>Starter — $1,500/mo</option>
-                  <option>Growth — $2,500/mo</option>
-                  <option>Scale — $4,000/mo</option>
+                  <option>Starter — $500/mo</option>
+                  <option>Growth — $1,500/mo</option>
+                  <option>Scale — $3,000/mo</option>
                   <option>Not sure yet</option>
                 </select>
               </div>
