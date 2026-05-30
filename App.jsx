@@ -892,6 +892,9 @@ export default function App() {
           </div>
         </section>
       )}
+      <p style={{ textAlign: "center", fontSize: "13px", color: "#647488", marginTop: "20px"}}>
+        Demo project made for fun using Claude + me
+      </p>
 
       {/* FOOTER */}
       <footer className="footer">
