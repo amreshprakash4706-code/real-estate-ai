@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import { Analytics } from "@vercel/analytics/react";
 
 const NAV = ["Home", "Services", "Pricing", "About", "Contact"];
 
@@ -908,13 +909,11 @@ export default function App() {
           ))}
         </div>
         <div>© 2026 Mangrainse. All rights reserved.</div>
-      <p style={{ textAlign:"center", fontSize: "13px", color: "#647488", marginTop: "20px"}]>
+      <p style={{ textAlign:"center", fontSize: "13px", color: "#647488", marginTop: "20px"}}>
         Demo project made for  fun using Claude + React
       </p>
       </footer>
-      </footer>
-      </footer>
-      </footer>
+      <Analytics />
     </>
   );
 }
